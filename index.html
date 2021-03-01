@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-database.js"></script>
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+          apiKey: "AIzaSyBLw7Q3Dm28fRQRwsUW02mA5AmHeEP1O38",
+          authDomain: "olx-project-575d8.firebaseapp.com",
+          databaseURL: "https://olx-project-575d8-default-rtdb.firebaseio.com",
+          projectId: "olx-project-575d8",
+          storageBucket: "olx-project-575d8.appspot.com",
+          messagingSenderId: "429579880115",
+          appId: "1:429579880115:web:f4164c54f67de65ee712c6"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+      </script>
+    <title>Todo App</title>
+</head>
+<body>
+    <div class="head" > 
+        <h2>ToDo App</h2>
+    </div>
+    <div class="app" >
+        <input type="text" placeholder="Enter Task" id="todo_item" >
+        <button onclick="addTodo()" >Add Item</button>
+        <button onclick="delAll()"> Delete All </button>
+    </div>
+
+    <div>
+        <ul id="list" >
+
+        </ul>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

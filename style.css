@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+.head{
+    background-color: darkcyan;
+    color: white;
+    padding:1px;
+    margin-bottom: 40px;
+}
+.app{
+    margin-left: 10%;
+    margin-right: 10px;
+    padding: 10px;
+}
+.app button{
+    margin: 4px;
+}
+.app input{
+    padding: 5px;
+}
+.btn{
+    background-color: rgb(39, 172, 172);
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+
+}
+.btn:hover{
+    background-color: darkcyan;
+}
+.task{
+    list-style: none;
+    margin-top: 10px;
+    background-color: aquamarine;
+    padding: 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
